@@ -1,0 +1,23 @@
+{
+  "name": "afhstudiodocs",
+  "version": "1.0.0",
+  "description": "AFHStudio Docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Akshayan",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.60",
+    "vuepress": "^2.0.0-beta.60"
+  },
+  "dependencies": {
+    "@kidonng/vuepress-plugin-contributors": "^0.3.0",
+    "@vue/component-compiler-utils": "^3.3.0",
+    "@vuepress/shared-utils": "^1.9.8",
+    "lru-cache": "^7.16.0"
+  }
+}
