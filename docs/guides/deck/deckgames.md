@@ -4,5 +4,5 @@
 | Game         | Status    |
 |--------------|-----------|
 | SuperTuxKart |<Badge type="tip" text="Works" vertical="top" />|
-| Sonic Riders |<Badge type="warning" text="Runs" vertical="top" />|
+| Sonic Riders (Dolphin) |<Badge type="warning" text="Runs" vertical="top" />|
 
