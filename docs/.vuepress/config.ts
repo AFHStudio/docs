@@ -1,10 +1,13 @@
 import { defaultTheme } from '@vuepress/theme-default';
 import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search';
-export default {
+export default defineUserConfig {
+  lang: 'en-US',
+  title: 'AFHStudio Docs',
+  description: 'Welcome to the AFHStudio Docs!',
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   theme: defaultTheme({
     logo: '/docslogo.png',
-    head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
     navbar: [
         {
           text: 'Homepage Revamped',
@@ -28,8 +31,4 @@ export default {
     }),
   ]
 }
-export default defineUserConfig({
-  lang: 'en-US',
-  title: 'AFHStudio Docs',
-  description: 'Welcome to the AFHStudio Docs!',
 })
