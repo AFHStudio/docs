@@ -1,4 +1,5 @@
 import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search';
 export default {
   theme: defaultTheme({
@@ -26,3 +27,8 @@ export default {
     }),
   ]
 }
+export default defineUserConfig({
+  lang: 'en-US',
+  title: 'AFHStudio Docs',
+  description: 'Welcome to the AFHStudio Docs!',
+})
