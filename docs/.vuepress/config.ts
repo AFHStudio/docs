@@ -5,9 +5,9 @@ export default {
   lang: 'en-US',
   title: 'Docs',
   description: 'Welcome to the AFHStudio Docs!',
-  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'favicon.png' }]],
   theme: defaultTheme({
-    logo: '/docslogo.png',
+    logo: '/afhlogo.png',
     navbar: [
         {
           text: 'Homepage Revamped',
