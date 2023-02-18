@@ -4,6 +4,7 @@ import { searchPlugin } from '@vuepress/plugin-search';
 export default {
   theme: defaultTheme({
     logo: '/docslogo.png',
+    head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
     navbar: [
         {
           text: 'Homepage Revamped',
