@@ -3,7 +3,6 @@ import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search';
 export default {
   lang: 'en-US',
-  title: 'AFHStudio Docs',
   description: 'Welcome to the AFHStudio Docs!',
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   theme: defaultTheme({
