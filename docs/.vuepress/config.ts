@@ -6,11 +6,11 @@ export default {
     navbar: [
         {
           text: 'Homepage Revamped',
-          children: ['/group/foo.md', '/group/bar.md'],
+          children: ['/guides/hr/theme.md'],
         },
         {
-          text: 'Unofficial Steam Deck Guide',
-              children: ['/guides/deck/deckgames.md', '/group/sub/bar.md'],
+          text: 'Deck Docs',
+              children: ['/guides/deck/deckgames.md'],
         },
       ],
   }),
