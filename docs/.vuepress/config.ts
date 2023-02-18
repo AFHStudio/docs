@@ -1,5 +1,6 @@
-import { defaultTheme } from '@vuepress/theme-default'
-import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default';
+import { searchPlugin } from '@vuepress/plugin-search';
+import { contributors } from '@kidonng/vuepress-plugin-contributors'
 export default {
   theme: defaultTheme({
     logo: '/docslogo.png',
@@ -23,6 +24,13 @@ export default {
           placeholder: 'Search',
         }
       }
+    }),
+    contributors({
+      docsRepo: 'afhstudio/docs',
+      docsBranch: 'main',
+      docsDir: 'docs',
+      label: 'Contributors',
+      api: 'https://api.xuann.wang/api/github-file-contributors'
     })
   ]
 }
