@@ -1,10 +1,10 @@
 # Homepage Revamped | Making a theme
 
-### You can easily make a theme for Homepage Revamped with some basic knowledge about CSS.
+### Begin
 
  1. Go to [Homepage Revamped GitHub / Themes Folder](https://github.com/AFHStudio/homepage-revamped/tree/main/themes). Click on default.css or copy the code below instead of going to GitHub.
 ```
-::: details Click me to view the code
+::: details View the code
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 *{
