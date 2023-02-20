@@ -4,7 +4,7 @@
 
  1. Go to [Homepage Revamped GitHub / Themes Folder](https://github.com/AFHStudio/homepage-revamped/tree/main/themes). Click on default.css or copy the code below instead of going to GitHub.
 ```
-::: details View the code
+::: details Click me to view the code
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 *{
@@ -151,5 +151,4 @@ body {
     }
   }
 ```
-```
- 
+:::
