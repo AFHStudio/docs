@@ -25,7 +25,7 @@ export default {
       hotKeys: ['s', '/'],
       locales: {
         '/': {
-          placeholder: 'Search the docs',
+          placeholder: 'Search',
         }
       }
     }),
