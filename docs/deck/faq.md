@@ -4,7 +4,7 @@
 
 
 ## I got an extra charge for an "import fee"! What is that?
-### Don't panic.
+✋ Stop! Don't panic.
 
 ![Import Fees](https://raw.githubusercontent.com/AFHStudio/docs/main/docs/.vuepress/public/importfees.png)
 
