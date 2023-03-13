@@ -1,4 +1,4 @@
-# Homepage Revamped | Making a theme
+# Making a theme
 
 ### Begin
 
