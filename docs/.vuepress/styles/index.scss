@@ -1,8 +1,18 @@
 :root {
   --c-brand: #247EF4;
   --c-brand-light: #5CA2FF;
+  --c-text: #000;
+  --c-text-accent: var(--c-brand);
+  --c-text-light: #000;
+  --c-text-lighter: #000;
+  --c-text-lightest: #000;
+  --c-text-quote: #999999;
 }
 html.dark {
   --c-brand: #247EF4;
   --c-brand-light: #5CA2FF;
+  --c-text: #FFF;
+  --c-text-light: #FFF;
+  --c-text-lighter: #FFF;
+  --c-text-lightest: #FFF;
 }
