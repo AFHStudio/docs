@@ -15,7 +15,7 @@ export default {
         },
         {
           text: 'Deck Docs',
-              children: ['/guides/deck/deckgames.md'],
+              children: ['/guides/deck/deckgames.md', '/guides/deck/README.md'],
         },
       ],
   }),
